@@ -385,3 +385,257 @@ header .btn-sign-up{
 .popular    .course-item    .btn-book:hover{
     background: var(--primary-color);
 }
+
+/* ============Feedback============= */
+
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+ .feedback-list {
+    display: flex;
+    overflow: hidden;
+} 
+
+.feedback-item {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.feedback-item  .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item  .info   .member-name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.42;
+}
+
+.feedback-item  .info   .desc{
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 14px;
+    line-height: 1.86;
+}
+
+.feedback-item  .dots{
+    gap: 6px;
+    display: flex;
+    margin-top: 28px;
+}
+
+.feedback-item  .dot{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.feedback-item .content{
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item blockquote{
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.54;
+}
+
+.feedback-item .dot.active{
+    background: var(--primary-color);
+    cursor: default;
+}
+/* ==================features1==================== */
+
+.features{
+    margin-top: 135px;
+    padding: 65px 0;
+
+}
+
+.features   .body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features   .images{
+    display: flex;
+    gap: 30px;
+}
+
+.features   .images img{
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features   .lower{
+    margin-top: 34px;
+}
+
+.features   .content{
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features   .desc{
+    margin-top: 16px;
+    color: #5F5B53;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.features   .cta-btn{
+    margin-top: 32px;
+    width: 137px;
+    height: 50px;
+    background: var(--primary-color);
+}
+/* ==================features2==================== */
+
+.features-2nd {
+    margin-top: 70px;
+}
+
+.features-2nd   .body{
+    flex-direction: row-reverse;
+}
+
+.features-2nd   .content{
+    width: 49%;
+}
+.features-2nd   .images img{
+    width: 470px;
+    height: 470px;
+}
+/* ==================blogs==================== */
+.blogs{
+    margin-top: 135px;
+    padding: 96px 0px;
+    background: #fffcf4;
+}
+
+.blogs  .blog-top{
+    text-align: center;
+}
+
+.blogs   .blog-top   .desc{
+    margin: 16px auto 0px;
+    width: 448px;
+    height: 56px;
+    color: #696262;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.blogs  .blog-list{
+    gap: 30px;
+    display: flex;
+    margin-top: 55px;
+    overflow: hidden;
+}
+
+.blogs  .item{
+    width: calc(33.33% - 20px);
+    border-radius: 16px;
+    background: #fff;
+    flex-shrink: 0;
+}
+
+.blogs  .item:hover {
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blogs  .item   .thumb{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0  0;
+}
+
+.blogs  .item   .info{
+    padding: 20px 20px 28px;
+}
+
+.blogs  .item   .date{
+    position: relative;
+    padding-bottom: 12px;
+    display: inline-flex;
+    align-items: center;
+    color: #5F5B53;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+
+.blogs  .item   .date::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.blogs  .item   .date::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    right: -27px;
+    display: inline-block;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #e2dfda;
+}
+
+.blogs  .item   .title{
+    color: #171100;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75   ;
+}
+
+.blogs  .item   .btn{
+    margin-top: 12px;
+    font-size: 1.4rem;
+}
+
+.blogs  .item   .btn:hover{
+    background: var(--primary-color);
+}
+
+.blogs  .dots{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 38px;
+}
+
+.blogs  .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #5F5B53;
+    cursor: pointer;
+}
+
+.blogs  .dot:active{
+    background: var(--primary-color);
+    cursor: default;
+}
